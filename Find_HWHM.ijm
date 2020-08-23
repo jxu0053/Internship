@@ -31,14 +31,18 @@ max_delta_avg = 0;
 
 spike_batch = 0;
 
-//Loop over x-axis in batches of 4
-for (i=0; i<=x.length-4; i=i+4){
+//Loop over x-axis in batches of 8
+for (i=0; i<=x.length-8; i=i+8){
 	print(x[i], y[i]);
 	//print(i);
-	batch = Array.slice(y,i,i+4);
+	batch = Array.slice(y,i,i+8);
 	Array.print("Current batch", batch);
 
-	batch_avg = (y[i]+y[i+1]+y[i+2]+y[i+3])/4;
+	batch_avg = 0;
+	for (j = 0; j < 8; j++){
+		batch_avg += (y[i+j]);
+	}
+	batch_avg = batch_avg / 8;
 	print("Batch avg", batch_avg);
 
 	//find batch largest difference between batch averages (when spike happens)
@@ -58,8 +62,12 @@ print("Spike at batch #",spike_batch)
 
 //FINDING MAX
 //I am taking the max as the average of the max batch in case our 4 step cuts the into the spike.
-max_batch = Array.slice(y,spike_batch-4, spike_batch);
-max_value = (max_batch[0]+max_batch[1]+max_batch[2]+max_batch[3])/4;
+max_batch = Array.slice(y,spike_batch-8, spike_batch);
+max_value = 0;
+for (i = 0; i< 8; i++){
+	max_value += max_batch[i];
+}
+max_value = max_value/8;
 
 
 //HWHM
@@ -82,4 +90,21 @@ for (i = 1; i < x.length-1; i++){
 print("max_value", max_value);
 print("HWHM", HM, HW);
 
+//FINDING PIXEL SIZE
+r1 = 1024-HW; //center of FFT image is 0, edges are 1024
+r2 = 1024+HW;
+d = 2*HW; 
+
+selectWindow("FFT of fish tooth[2826].tif");
+makeSelection("point",newArray(r1,1024,r2,1024),newArray(1024,r1,1024,r2))
+
+run("Measure");
+
+avg_px = 0;
+for (i=0; i<4; i++){
+	avg_px += getResult("R", i);
+}
+avg_px = avg_px/4
+avg_px_str = "" + avg_px;
+return avg_px_str;
 
