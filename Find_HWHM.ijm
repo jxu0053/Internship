@@ -1,20 +1,16 @@
+img_title = getTitle();
+
 run("FFT");
-makeRectangle(0, 0, 1024, 2048);
+makeRectangle(0, 0, 1025, 2048);
 run("Plot Profile");
 Plot.getValues(x,y);
 
-/*for (i=0; i<x.length; i++)
-	print(x[i],y[i]);*/
-
-//print(x.length);
-
-//Array.print(y) 
 
 //SHIFT y DOWN
 min = y[0]
 
-for (i=1; i<=y.length-1; i++){
-	if (y[i] < y[0]){
+for (i=1; i<=x.length-1; i++){
+	if (y[i] < min){
 		min = y[i];
 	}
 }
@@ -49,7 +45,7 @@ for (i=0; i<=x.length-8; i=i+8){
 	if (i == 0){
 		prev_avg = batch_avg;
 	}
-	delta_avg = batch_avg - prev_avg;
+	delta_avg = abs(batch_avg - prev_avg);
 	print("Delta avg", delta_avg);
 	if (delta_avg > max_delta_avg){
 		max_delta_avg = delta_avg;
@@ -95,7 +91,7 @@ r1 = 1024-HW; //center of FFT image is 0, edges are 1024
 r2 = 1024+HW;
 d = 2*HW; 
 
-selectWindow("FFT of fish tooth[2826].tif");
+selectWindow("FFT of " + img_title);
 makeSelection("point",newArray(r1,1024,r2,1024),newArray(1024,r1,1024,r2))
 
 run("Measure");
