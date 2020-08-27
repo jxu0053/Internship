@@ -1,31 +1,31 @@
 /*
  * Macro template to process multiple images in a folder
- */
+*/
 
+//PROMPT USER for input folder, output folder, and image extension
 #@ File (label = "Input directory", style = "directory") input
 #@ File (label = "Output directory", style = "directory") output
 #@ String (label = "File suffix", value = ".tif") suffix
 
-// See also Process_Folder.py for a version of this code
-// in the Python scripting language.
-
-
-print("Is Data a DIRECTORY?", File.isDirectory(input));
 processFolder(input);
 
-// function to scan folders/subfolders/files to find files with correct suffix
 function processFolder(input) {
+/* function to scan folders/subfolders/files to process files with correct suffix */
 	list = getFileList(input);
 	list = Array.sort(list);
+
+	//pritns stuff to track
 	print("FILE LIST :");
 	Array.print(list);
-	//setBatchMode(true)
+
+	//Loop through files and subfolders to apply process
 	for (i = 0; i < list.length; i++) {
 		if(endsWith(list[i], suffix)) {
 			//print("IMAGE: ", list[i]);
 			processFile(input, output, list[i]);
 		}
 		else if(File.isDirectory(input + "\\" + list[i])) {
+			//prints stuff to track
 			print("");
 			print("-----------------------------------");
 			print("");
@@ -38,21 +38,24 @@ function processFolder(input) {
 }
 
 function processFile(input, output, file) {
-	// Do the processing here by adding your own code.
-	// Leave the print statements until things work, then remove them.
-	//print("FOLDERNAME", input);
+	//getFileList appends / to all subfolders. We don't want that. 
 	if (endsWith(input, "/")) {
 		index = lengthOf(input)-1;
 		input = substring(input,0,index);
 	}
+	
+	//prints stuff to track
 	print("");
 	print("PROCESSING IMAGE: " + input + File.separator + file);
 	open(input+"\\"+file);
+	
+	//set scale to pixels 
 	run("Set Scale...", "distance=0 known=0 unit=pixel global");
 
+	//find width of feature in image
 	fft_values = getFFTValues(file);
 	
-	new_max_batch = getNewMaxBatch(fft_values);
+	new_max_batch = getNewMaxBatch(fft_values); //removes peak
 	
 	half_max = getHM(new_max_batch);
 	
@@ -62,8 +65,10 @@ function processFile(input, output, file) {
 
 	quality = getQuality(px_width);
 
-	path = categorize(quality, px_width);
+	path = categorize(quality, px_width); //saves image to correct folder
 
+	
+	//CLEAN UP
 	close("*");
 	run("Clear Results");
 	
@@ -73,6 +78,7 @@ function processFile(input, output, file) {
 /*///////////////////////////////////////////////////////////////////////
 FUNCTIONS
 ///////////////////////////////////////////////////////////////////////*/
+
 function avg(array){
 	sum = 0;
 	array_length = array.length;
@@ -80,32 +86,33 @@ function avg(array){
 		sum += array[i];
 	}
 	average = sum/array_length;
-
 	return average;
 }
 
 function getFFTValues(file) {
 	run("FFT");
+	
 	width = getWidth();
 	makeRectangle(0,0,width/2,width);
-	//run("Plot Profile");
-	fft_values = getProfile();
-	//close("Plot*");
-	//Array.print(fft_values);
-	fft_values = shift(fft_values);
-	//Array.print(fft_values);
+
+	fft_values = getProfile(); //returns array of FFT(x) values
+
+	fft_values = shift(fft_values); //shift down linearly by min{FFT(x)} to facilitate HW
 
 	return fft_values;
 }
 
 function shift(array) {
 	min = array[0];
+
+	//find min{FFT(x)}
 	for (i=1; i<=array.length-1; i++) {
 		if (array[i] < min) {
 			min = array[i];
 		}
 	}
 
+	//shift FFT(x) down by min
 	for (i = 0; i<=array.length-1; i++) {
 		array[i]-=min;
 	}
@@ -114,27 +121,22 @@ function shift(array) {
 }
 
 function getNewMaxBatch(fft_values) {
+/* Function takes in an array of FFT values and returns the set of 8 values preceding the spike */
 	prev_avg = 0;
 	max_delta_avg = 0;
-	spike_index= 0;
+	spike_index = 0;
 
-	//Loop over gray-values in batches of 8
+	//Loop over gray-values in batches of 8 to find the one with spike (highest difference in average)
 	for (i=0; i<=fft_values.length-8; i=i+8) {
-		//print(x[i], y[i]);
-		//print(i);
 		batch = Array.slice(fft_values,i,i+8);
-		//Array.print("Current batch", batch);
-		
 		batch_avg = avg(batch);
 
-	//	print("Batch avg", batch_avg);
-	
-		//find batch largest difference between batch averages (when spike happens)
 		if (i == 0) {
 			prev_avg = batch_avg;
 		}
+		
 		delta_avg = abs(batch_avg - prev_avg);
-		//print("Delta avg", delta_avg);
+		
 		if (delta_avg > max_delta_avg){
 			max_delta_avg = delta_avg;
 			spike_index = i;
@@ -142,70 +144,61 @@ function getNewMaxBatch(fft_values) {
 		
 		prev_avg = batch_avg;
 	}
-//	print("Spike at batch #",spike_index);
+
 	new_max_batch= Array.slice(fft_values, spike_index-8, spike_index);
 	return new_max_batch;
-
 }
 
 function getHM(new_max_batch) {
-	max_value = avg(new_max_batch);
-
-	//print("max_value", max_value);
-	//HWHM
-	//print("Finding HW");
-	
+	max_value = avg(new_max_batch); //takes average in case spike is not fully cut out.
 	half_max = max_value/2;
-	
 	return half_max;
 }
 
 function getHW(half_max, fft_values) {
+/* Function takes in half-max value and fft values and returns index of fft value closest to the half-max */
+	
+	//compare to first fft value to have a starting point.
 	delta_HM = abs(half_max-fft_values[0]);
-	
+
+	//keeps track of best matches. Updated in loop below
 	half_width = 0;
-	
+
+	//loops through all fft values and finds difference to half-max
 	for (i = 1; i < fft_values.length-1; i++) {
-		//print("Iteration #", i);
 		delta = abs(half_max-fft_values[i]);
-		//print("Delta HM", delta);
 		if (delta < delta_HM){ 
 			delta_HM = delta;
 			half_width = i;
 		}
 	}
 
-	//print("HWHM", half_max, half_width);
-
 	return half_width;
 }
 
 function getPxWidth(half_width,half_max,file) {
-	//FINDING PIXEL SIZE
+/* Function takes in half_width, half_max and file name inputs. Takes 4 points in the image's FFT image at half-max away from the center. Returns average of R-value corresponding to those 4 points. */
 	selectWindow("FFT of " + file);
 	FFT_width = getWidth();
 	center = FFT_width/2;
-	
-	r1 = center-half_width; //center of FFT image is 0, edges are 1024
+	r1 = center-half_width; //center of FFT image is 0, edges are width/2 in pixels measured from corner
 	r2 = center+half_width;
-	d = 2*half_width; 
-	
+
+	//makes selections and measures R value
 	makeSelection("point",newArray(r1,center,r2,center),newArray(center,r1,center,r2));
-	
 	run("Measure");
+
 	
 	selections = newArray(getResult("R",0),getResult("R",1),getResult("R",2),getResult("R",3));
-
 	avg_px = avg(selections);
 
-	avg_px_str = "" + avg_px;
-	
+	avg_px_str = "" + avg_px; //needed to be string to return
 	return avg_px_str;
 }
 
 function getQuality(px_width) {
 	if (px_width < 3) {
-		category = "trash";
+		category = "unusable";
 	}
 	else if (px_width >= 3 && px_width < 4){
 		category = "low_qual";
@@ -223,6 +216,7 @@ function getQuality(px_width) {
 function categorize(quality, px_width) {
 	path = output + "\\" + quality;
 
+	//create category directory if it does not exist. 
 	if (!File.exists(path) || !File.isDirectory(path)) {
 		File.makeDirectory(path);	
 	}
