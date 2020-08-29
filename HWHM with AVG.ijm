@@ -49,7 +49,7 @@ function processFile(input, output, file) {
 	print("PROCESSING IMAGE: " + input + File.separator + file);
 	open(input+"\\"+file);
 	
-	//set scale to pixels 
+	//Removes any scaling
 	run("Set Scale...", "distance=0 known=0 unit=pixel global");
 
 	//find width of feature in image
