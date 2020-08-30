@@ -1,0 +1,244 @@
+AnyConv.com__fish tooth[2826].tiff, AnyConv.com__human bone[2825].tiff, AnyConv.com__squirrel bone[2824].tiff, fish tooth[2826].tif, human bone[2825].tif, mouse full femur/, mouse full humerus/, mouse partial femur/, mouse partial humerus/, squirrel bone[2824].tif
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 79 | Away from last: 49 | x-coord: 624
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+
+-----------------------------------
+
+STARTING FOLDER mouse full femur/
+Femur_SkyScan1174_28 from Cylinder1 Marked Slices01.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices02.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices03.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices04.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices05.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices06.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices07.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices08.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices09.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices10.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices11.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices12.tiff
+Batch #: 32 | Away from last: 0 | x-coord: 248
+Batch #: 32 | Away from last: 0 | x-coord: 248
+Batch #: 32 | Away from last: 0 | x-coord: 248
+Batch #: 32 | Away from last: 0 | x-coord: 248
+Batch #: 32 | Away from last: 0 | x-coord: 248
+Batch #: 32 | Away from last: 0 | x-coord: 248
+Batch #: 32 | Away from last: 0 | x-coord: 248
+Batch #: 31 | Away from last: 1 | x-coord: 240
+Batch #: 31 | Away from last: 1 | x-coord: 240
+Batch #: 31 | Away from last: 1 | x-coord: 240
+Batch #: 32 | Away from last: 0 | x-coord: 248
+Batch #: 32 | Away from last: 0 | x-coord: 248
+
+COMPLETED FOLDER mouse full femur/
+
+-----------------------------------
+
+STARTING FOLDER mouse full humerus/
+Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices01.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices02.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices03.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices04.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices05.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices06.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices07.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices08.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices09.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices10.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices11.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices12.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices13.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices14.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices15.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices16.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices17.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+
+COMPLETED FOLDER mouse full humerus/
+
+-----------------------------------
+
+STARTING FOLDER mouse partial femur/
+Femur_SkyScan1174_6 Marked Slices01.tiff, Femur_SkyScan1174_6 Marked Slices02.tiff, Femur_SkyScan1174_6 Marked Slices03.tiff, Femur_SkyScan1174_6 Marked Slices04.tiff, Femur_SkyScan1174_6 Marked Slices05.tiff, Femur_SkyScan1174_6 Marked Slices06.tiff, Femur_SkyScan1174_6 Marked Slices07.tiff, Femur_SkyScan1174_6 Marked Slices08.tiff, Femur_SkyScan1174_6 Marked Slices09.tiff, Femur_SkyScan1174_6 Marked Slices10.tiff, Femur_SkyScan1174_6 Marked Slices11.tiff, Femur_SkyScan1174_6 Marked Slices12.tiff, Femur_SkyScan1174_6 Marked Slices13.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+Batch #: 64 | Away from last: 0 | x-coord: 504
+
+COMPLETED FOLDER mouse partial femur/
+
+-----------------------------------
+
+STARTING FOLDER mouse partial humerus/
+Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices01.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices02.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices03.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices04.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices05.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices06.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices07.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices08.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices09.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices10.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices11.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices12.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices13.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices14.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices15.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices16.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices17.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+
+COMPLETED FOLDER mouse partial humerus/
+AnyConv.com__fish tooth[2826].tiff, AnyConv.com__human bone[2825].tiff, AnyConv.com__squirrel bone[2824].tiff, fish tooth[2826].tif, human bone[2825].tif, mouse full femur/, mouse full humerus/, mouse partial femur/, mouse partial humerus/, squirrel bone[2824].tif
+PROCESSING IMAGE:  AnyConv.com__fish tooth[2826].tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  AnyConv.com__human bone[2825].tiff
+Batch #: 79 | Away from last: 49 | x-coord: 624
+PROCESSING IMAGE:  AnyConv.com__squirrel bone[2824].tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+
+-----------------------------------
+
+STARTING FOLDER mouse full femur/
+Femur_SkyScan1174_28 from Cylinder1 Marked Slices01.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices02.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices03.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices04.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices05.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices06.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices07.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices08.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices09.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices10.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices11.tiff, Femur_SkyScan1174_28 from Cylinder1 Marked Slices12.tiff
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices01.tiff
+Batch #: 32 | Away from last: 0 | x-coord: 248
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices02.tiff
+Batch #: 32 | Away from last: 0 | x-coord: 248
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices03.tiff
+Batch #: 32 | Away from last: 0 | x-coord: 248
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices04.tiff
+Batch #: 32 | Away from last: 0 | x-coord: 248
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices05.tiff
+Batch #: 32 | Away from last: 0 | x-coord: 248
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices06.tiff
+Batch #: 32 | Away from last: 0 | x-coord: 248
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices07.tiff
+Batch #: 32 | Away from last: 0 | x-coord: 248
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices08.tiff
+Batch #: 31 | Away from last: 1 | x-coord: 240
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices09.tiff
+Batch #: 31 | Away from last: 1 | x-coord: 240
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices10.tiff
+Batch #: 31 | Away from last: 1 | x-coord: 240
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices11.tiff
+Batch #: 32 | Away from last: 0 | x-coord: 248
+PROCESSING IMAGE:  Femur_SkyScan1174_28 from Cylinder1 Marked Slices12.tiff
+Batch #: 32 | Away from last: 0 | x-coord: 248
+
+COMPLETED FOLDER mouse full femur/
+
+-----------------------------------
+
+STARTING FOLDER mouse full humerus/
+Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices01.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices02.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices03.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices04.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices05.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices06.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices07.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices08.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices09.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices10.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices11.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices12.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices13.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices14.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices15.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices16.tiff, Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices17.tiff
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices01.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices02.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices03.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices04.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices05.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices06.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices07.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices08.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices09.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices10.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices11.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices12.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices13.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices14.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices15.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices16.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Humerus_XradiaVersa510_10 from Cylinder3 Marked Slices17.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+
+COMPLETED FOLDER mouse full humerus/
+
+-----------------------------------
+
+STARTING FOLDER mouse partial femur/
+Femur_SkyScan1174_6 Marked Slices01.tiff, Femur_SkyScan1174_6 Marked Slices02.tiff, Femur_SkyScan1174_6 Marked Slices03.tiff, Femur_SkyScan1174_6 Marked Slices04.tiff, Femur_SkyScan1174_6 Marked Slices05.tiff, Femur_SkyScan1174_6 Marked Slices06.tiff, Femur_SkyScan1174_6 Marked Slices07.tiff, Femur_SkyScan1174_6 Marked Slices08.tiff, Femur_SkyScan1174_6 Marked Slices09.tiff, Femur_SkyScan1174_6 Marked Slices10.tiff, Femur_SkyScan1174_6 Marked Slices11.tiff, Femur_SkyScan1174_6 Marked Slices12.tiff, Femur_SkyScan1174_6 Marked Slices13.tiff
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices01.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices02.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices03.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices04.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices05.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices06.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices07.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices08.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices09.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices10.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices11.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices12.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+PROCESSING IMAGE:  Femur_SkyScan1174_6 Marked Slices13.tiff
+Batch #: 64 | Away from last: 0 | x-coord: 504
+
+COMPLETED FOLDER mouse partial femur/
+
+-----------------------------------
+
+STARTING FOLDER mouse partial humerus/
+Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices01.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices02.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices03.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices04.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices05.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices06.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices07.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices08.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices09.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices10.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices11.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices12.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices13.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices14.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices15.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices16.tiff, Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices17.tiff
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices01.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices02.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices03.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices04.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices05.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices06.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices07.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices08.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices09.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices10.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices11.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices12.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices13.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices14.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices15.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices16.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+PROCESSING IMAGE:  Humerus_Partial_XradiaVersa510_5 from Cylinder4 Marked Slices17.tiff
+Batch #: 128 | Away from last: 0 | x-coord: 1016
+
+COMPLETED FOLDER mouse partial humerus/
